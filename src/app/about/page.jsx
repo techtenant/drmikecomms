@@ -101,7 +101,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="rounded-xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80"
+                  src="https://www.theprivateclinic.co.uk/wp-content/uploads/2025/01/dr-mike-comins-vaser-liposuction-doctor-700.jpg"
                   alt="Dr Mike Comins"
                   className="w-full h-[500px] object-cover"
                 />
