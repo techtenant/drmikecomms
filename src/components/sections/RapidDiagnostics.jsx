@@ -16,7 +16,7 @@ export default function RapidDiagnostics() {
           {/* LEFT: Image */}
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80" 
+              src="https://images.unsplash.com/photo-1731355771317-b2ab72c79124?w=800&q=80" 
               alt="Aesthetic treatment facility"
               className="w-full h-full object-cover"
             />
