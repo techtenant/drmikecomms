@@ -210,7 +210,7 @@ export default function TreatmentsPage() {
                     <div className="text-2xl font-bold text-clinic-blue">{treatment.price}</div>
                   </div>
                   <Link 
-                    href="/contact"
+                    href="/book"
                     className="bg-clinic-blue text-white px-6 py-3 rounded-md hover:bg-opacity-90 transition font-semibold"
                   >
                     Book Consultation

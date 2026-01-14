@@ -91,7 +91,7 @@ export default function AboutPage() {
                   View Treatments
                 </Link>
                 <Link 
-                  href="/contact"
+                  href="/book"
                   className="border-2 border-white text-white px-8 py-4 rounded-md hover:bg-white/10 transition font-semibold"
                 >
                   Book Consultation
@@ -374,7 +374,7 @@ export default function AboutPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="/contact"
+                href="/book"
                 className="bg-clinic-blue text-white px-10 py-4 rounded-md hover:bg-opacity-90 transition font-semibold text-lg"
               >
                 Book Consultation

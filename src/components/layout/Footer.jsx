@@ -97,8 +97,8 @@ export default function Footer() {
             <ul className="space-y-2 text-sm opacity-80">
               <li><Link href="/about" className="hover:text-clinic-light transition">About us</Link></li>
               <li><Link href="/about#qualifications" className="hover:text-clinic-light transition">Qualifications</Link></li>
-              <li><Link href="/blog" className="hover:text-clinic-light transition">News & articles</Link></li>
-              <li><Link href="/careers" className="hover:text-clinic-light transition">Careers</Link></li>
+              <li><Link href="/" className="hover:text-clinic-light transition">News & articles</Link></li>
+              <li><Link href="/" className="hover:text-clinic-light transition">Careers</Link></li>
             </ul>
           </div>
 
@@ -117,9 +117,8 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4 border-b border-white/20 pb-2">For professionals</h3>
             <ul className="space-y-2 text-sm opacity-80">
               <li><Link href="/professionals" className="hover:text-clinic-light transition">Professionals hub</Link></li>
-              <li><Link href="/refer" className="hover:text-clinic-light transition">Refer a patient</Link></li>
-              <li><Link href="/forms" className="hover:text-clinic-light transition">Treatment forms</Link></li>
-              <li><Link href="/press" className="hover:text-clinic-light transition">Press enquiries</Link></li>
+              <li><Link href="/" className="hover:text-clinic-light transition">Refer a patient</Link></li>
+              <li><Link href="/" className="hover:text-clinic-light transition">Press enquiries</Link></li>
             </ul>
           </div>
 

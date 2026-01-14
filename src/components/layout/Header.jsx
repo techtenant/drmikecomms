@@ -92,6 +92,11 @@ export default function Header() {
             <li>
               <Link href="/privacy" className="hover:text-clinic-light transition">Privacy Policy</Link>
             </li>
+            <li>
+              <Link href="/book" className="bg-clinic-teal text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition font-semibold">
+                Book Now
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
@@ -118,9 +123,12 @@ export default function Header() {
 
           {/* Logo */}
           <div className="mb-8 mt-2">
-            <Link href="/" onClick={() => setMobileMenuOpen(false)}>
-              <div className="text-xl font-bold">Dr Mike Comins</div>
-              <div className="text-sm opacity-80">MBBS FBCAM</div>
+            <Link href="/" className="flex items-center">
+              <img
+                src="/logos/logo-concept-2-wordmark.svg"
+                alt="Dr Mike Comins Clinic"
+                className="h-12 md:h-14 w-auto brightness-0 invert"
+              />
             </Link>
           </div>
 
@@ -188,6 +196,15 @@ export default function Header() {
                   className="block py-3 px-4 hover:bg-white/10 rounded-lg transition"
                 >
                   Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/book"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block py-3 px-4 bg-clinic-teal text-white rounded-lg hover:bg-opacity-90 transition font-semibold text-center"
+                >
+                  Book Appointment
                 </Link>
               </li>
             </ul>
