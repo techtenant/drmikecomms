@@ -1,0 +1,18 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Decorative Line Left -->
+  <line x1="20" y1="60" x2="80" y2="60" stroke="#b8d4e3" stroke-width="2"/>
+  
+  <!-- Main Text -->
+  <text x="200" y="55" font-family="serif" font-size="36" font-weight="600" fill="#1e4a6b" text-anchor="middle" letter-spacing="1">Dr Mike Comins</text>
+  
+  <!-- Subtitle -->
+  <text x="200" y="85" font-family="sans-serif" font-size="13" font-weight="400" fill="#4a8fa0" text-anchor="middle" letter-spacing="3">MBBS FBCAM</text>
+  
+  <!-- Decorative Line Right -->
+  <line x1="320" y1="60" x2="380" y2="60" stroke="#b8d4e3" stroke-width="2"/>
+  
+  <!-- Small medical symbol accent -->
+  <circle cx="200" cy="25" r="3" fill="#b8d4e3"/>
+  <line x1="200" y1="20" x2="200" y2="30" stroke="#b8d4e3" stroke-width="1.5"/>
+  <line x1="195" y1="25" x2="205" y2="25" stroke="#b8d4e3" stroke-width="1.5"/>
+</svg>

@@ -21,11 +21,14 @@ export default function Header() {
         {/* Top bar with logo, search, phone, enquire */}
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 md:gap-4">
-            <span className="text-xl md:text-2xl font-bold">Dr Mike Comins</span>
-            <span className="text-xs md:text-sm opacity-80 hidden sm:inline">MBBS FBCAM</span>
+          <Link href="/" className="flex items-center">
+            <img
+              src="/logos/logo-concept-2-wordmark.svg"
+              alt="Dr Mike Comins Clinic"
+              className="h-12 md:h-14 w-auto brightness-0 invert"
+            />
           </Link>
-          
+
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-4">
             <button className="hover:bg-white/10 p-2 rounded-full transition">
@@ -35,8 +38,8 @@ export default function Header() {
               <FiPhone size={18} />
               <span>+44 (0)20 7584 1642</span>
             </a>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="bg-clinic-light text-clinic-dark px-6 py-2 rounded-md font-semibold hover:bg-opacity-90 transition"
             >
               Enquire online
@@ -48,7 +51,7 @@ export default function Header() {
             <a href="tel:02075841642" className="hover:bg-white/10 p-2 rounded-full transition">
               <FiPhone size={20} />
             </a>
-            <button 
+            <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="hover:bg-white/10 p-2 rounded-full transition"
             >
@@ -95,19 +98,18 @@ export default function Header() {
 
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
-        <div 
+        <div
           className="fixed inset-0 bg-black/50 z-40 lg:hidden"
           onClick={() => setMobileMenuOpen(false)}
         />
       )}
 
       {/* Mobile Menu Slide-in */}
-      <div className={`fixed top-0 right-0 h-full w-80 max-w-[85%] bg-clinic-dark text-white z-50 transform transition-transform duration-300 lg:hidden ${
-        mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
-      }`}>
+      <div className={`fixed top-0 right-0 h-full w-80 max-w-[85%] bg-clinic-dark text-white z-50 transform transition-transform duration-300 lg:hidden ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}>
         <div className="p-6">
           {/* Close Button */}
-          <button 
+          <button
             onClick={() => setMobileMenuOpen(false)}
             className="absolute top-6 right-6 hover:bg-white/10 p-2 rounded-full transition"
           >
@@ -126,18 +128,18 @@ export default function Header() {
           <nav>
             <ul className="space-y-1">
               <li>
-                <Link 
-                  href="/" 
+                <Link
+                  href="/"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block py-3 px-4 hover:bg-white/10 rounded-lg transition"
                 >
                   Home
                 </Link>
               </li>
-              
+
               {/* Treatments with submenu */}
               <li>
-                <button 
+                <button
                   onClick={() => setTreatmentsOpen(!treatmentsOpen)}
                   className="w-full text-left py-3 px-4 hover:bg-white/10 rounded-lg transition flex items-center justify-between"
                 >
@@ -148,7 +150,7 @@ export default function Header() {
                   <ul className="ml-4 mt-1 space-y-1">
                     {treatments.map((treatment, i) => (
                       <li key={i}>
-                        <Link 
+                        <Link
                           href={treatment.href}
                           onClick={() => setMobileMenuOpen(false)}
                           className="block py-2 px-4 text-sm hover:bg-white/10 rounded-lg transition"
@@ -162,8 +164,8 @@ export default function Header() {
               </li>
 
               <li>
-                <Link 
-                  href="/about" 
+                <Link
+                  href="/about"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block py-3 px-4 hover:bg-white/10 rounded-lg transition"
                 >
@@ -171,8 +173,8 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/contact" 
+                <Link
+                  href="/contact"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block py-3 px-4 hover:bg-white/10 rounded-lg transition"
                 >
@@ -180,8 +182,8 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/privacy" 
+                <Link
+                  href="/privacy"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block py-3 px-4 hover:bg-white/10 rounded-lg transition"
                 >

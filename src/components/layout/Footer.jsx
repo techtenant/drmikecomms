@@ -22,19 +22,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12 pb-8 border-b border-white/20">
           {/* Logo & Partnership */}
           <div>
-            <div className="flex items-center gap-4 mb-6">
-              <div>
-                <div className="flex items-center gap-2 mb-2">
-                  <svg width="24" height="36" viewBox="0 0 24 36" fill="white" className="opacity-90">
-                    <path d="M12 0 C12 0 24 8 24 18 C24 28 18 36 12 36 C6 36 0 28 0 18 C0 8 12 0 12 0 Z M12 6 C12 6 6 12 6 18 C6 24 9 30 12 30 C15 30 18 24 18 18 C18 12 12 6 12 6 Z" />
-                  </svg>
-                  <div>
-                    <div className="text-xs font-light tracking-wider">THE</div>
-                    <div className="text-lg font-bold tracking-tight leading-none">DR MIKE</div>
-                    <div className="text-lg font-bold tracking-tight leading-none">COMINS</div>
-                  </div>
-                </div>
-              </div>
+            <div className="mb-6">
+              <img
+                src="/logos/logo-concept-2-wordmark.svg"
+                alt="Dr Mike Comins Clinic"
+                className="h-16 w-auto brightness-0 invert"
+              />
             </div>
           </div>
 
@@ -44,7 +37,7 @@ export default function Footer() {
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 inline-block">
               <div className="flex items-center gap-2 mb-2">
                 <div className="flex gap-1">
-                  {[1,2,3,4,5].map(i => (
+                  {[1, 2, 3, 4, 5].map(i => (
                     <svg key={i} width="16" height="16" viewBox="0 0 24 24" fill="#60D5C3" className="text-teal-400">
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                     </svg>
@@ -64,7 +57,7 @@ export default function Footer() {
             <div className="flex items-start gap-3">
               <div className="bg-white rounded-full p-2 flex-shrink-0">
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none" className="text-clinic-blue">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
               <div>
@@ -115,7 +108,6 @@ export default function Footer() {
             <ul className="space-y-2 text-sm opacity-80">
               <li><Link href="/patient-hub" className="hover:text-clinic-light transition">Patient hub</Link></li>
               <li><Link href="/pricing" className="hover:text-clinic-light transition">How to pay</Link></li>
-              <li><Link href="/international" className="hover:text-clinic-light transition">International patients</Link></li>
               <li><Link href="/feedback" className="hover:text-clinic-light transition">Your feedback</Link></li>
             </ul>
           </div>
@@ -150,7 +142,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-60">
             <p>
-              © Copyright {new Date().getFullYear()} Dr Mike Comins Clinic. 
+              © Copyright {new Date().getFullYear()} Dr Mike Comins Clinic.
               Registered company number: 12345678. CQC registered: HC12345.
             </p>
             <div className="flex items-center gap-4">
