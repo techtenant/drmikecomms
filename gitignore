@@ -1,0 +1,107 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+.next
+out
+
+# production build
+/build
+dist
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files - NEVER commit these
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep example env file for reference
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local development only files
+/local-dev/
+*.local.*
+*-local.*
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+/temp/
+
+# Log files
+*.log
+logs/
+
+# Local configuration overrides
+local.config.js
+local.config.json
+
+# Package manager lock files (uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Build info
+.next/
+.turbo/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Generated files
+/public/sitemap.xml
+/public/robots.txt
+
+# Local test files
+test-results/
+playwright-report/
+
+# Backup files
+*.backup
+*.bak
+
+# Local notes and documentation
+NOTES.md
+TODO.local.md
