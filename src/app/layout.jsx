@@ -1,11 +1,13 @@
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import AccessibilityToolbar from '@/components/accessibility/AccessibilityToolbar';
+
 
 export const metadata = {
   title: 'Dr Mike Comins | Expert Aesthetic Medicine London',
   description: 'Pioneer in aesthetic medicine with over 23 years experience. Specialist in anti-wrinkle injections, dermal fillers, and Vaser liposuction.',
-   icons: {
+  icons: {
     icon: '/logos/favicon.svg',
     apple: '/logos/favicon.svg',
   }
@@ -18,6 +20,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <AccessibilityToolbar />
       </body>
     </html>
   )
