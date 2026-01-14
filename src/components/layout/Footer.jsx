@@ -138,7 +138,7 @@ export default function Footer() {
               <li><Link href="/accessibility" className="hover:text-clinic-light transition">Accessibility</Link></li>
               <li><Link href="/compliance" className="hover:text-clinic-light transition">Compliance</Link></li>
               <li><Link href="/privacy" className="hover:text-clinic-light transition">Privacy</Link></li>
-              <li><Link href="/cookies" className="hover:text-clinic-light transition">Cookie notice</Link></li>
+              <li><Link href="/cookie-notice" className="hover:text-clinic-light transition">Cookie notice</Link></li>
               <li><Link href="/terms" className="hover:text-clinic-light transition">Terms and conditions</Link></li>
               <li><Link href="/modern-slavery" className="hover:text-clinic-light transition">Modern slavery statement</Link></li>
               <li><button className="hover:text-clinic-light transition">Cookies Settings</button></li>
@@ -154,8 +154,8 @@ export default function Footer() {
               Registered company number: 12345678. CQC registered: HC12345.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition">
-                <span className="text-xs">Website by Datfur</span>
+              <a href="https://www.medicodigital.co.uk/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition">
+                <span className="text-xs">Website by Medico Digital</span>
               </a>
             </div>
           </div>
