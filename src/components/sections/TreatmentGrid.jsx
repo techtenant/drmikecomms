@@ -25,7 +25,7 @@ export default function TreatmentGrid() {
     {
       title: 'Vaser Liposuction',
       description: 'Specialist support for body contouring with advanced ultrasound-assisted liposuction technology.',
-      image: '/images/drmike_lipo.jpeg',
+      image: '/images/drmike_vaser.jpg',
       link: '/treatments#vaser'
     }
   ];

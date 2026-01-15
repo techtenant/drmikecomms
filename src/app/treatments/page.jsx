@@ -44,7 +44,7 @@ export default function TreatmentsPage() {
       id: 'vaser',
       title: 'Vaser Liposuction',
       subtitle: 'Advanced Body Contouring',
-      image: '/images/drmike_lipo.jpeg',
+      image: '/images/drmike_vaser.jpg',
       description: 'Dr Mike Comins introduced Vaser Hi Def liposuction to the UK in 2010 and is recognised worldwide as a pioneer in this technique. Vaser uses ultrasound technology to selectively target fat cells whilst preserving surrounding tissues, resulting in superior body contouring with less bruising and faster recovery.',
       benefits: [
         'Precise fat removal and body sculpting',

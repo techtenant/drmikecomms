@@ -10,7 +10,7 @@ export default function WaysToAccess() {
       title: 'Self pay',
       icon: '£',
       description: 'Choose to pay directly and get fast access to world-class care, with clear fixed-price packages and 0% finance to make things simple.',
-      image: 'images/drmike.jpeg',
+      image: 'https://fi.realself.com/hero/0/5/4/userimage-55f5edc9-804a-4234-a7ef-22ee3ff9aef3.',
       link: '/pricing'
     },
     insurance: {
