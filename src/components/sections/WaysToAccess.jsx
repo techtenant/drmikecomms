@@ -10,7 +10,7 @@ export default function WaysToAccess() {
       title: 'Self pay',
       icon: '£',
       description: 'Choose to pay directly and get fast access to world-class care, with clear fixed-price packages and 0% finance to make things simple.',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80',
+      image: 'images/drmike.jpeg',
       link: '/pricing'
     },
     insurance: {

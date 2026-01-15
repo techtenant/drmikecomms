@@ -54,7 +54,7 @@ export default function Hero() {
           {/* RIGHT: Image */}
           <div className="relative h-[600px] rounded-lg overflow-hidden">
             <img 
-              src="/images/drmike_heroone.png" 
+              src="/images/drmike_hero_two.jpeg" 
               alt="Medical facility"
               className="w-full h-full object-cover"
             />
