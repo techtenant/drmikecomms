@@ -7,25 +7,25 @@ export default function TreatmentGrid() {
     {
       title: 'Anti-wrinkle injections',
       description: 'Expert consultants and advanced techniques for fast, world-class aesthetic treatments.',
-      image: 'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/images/drmike_antiwrinkle.png',
       link: '/treatments#anti-wrinkle'
     },
     {
       title: 'Dermal Fillers',
       description: 'Rapid diagnostics and tailored treatment for lips, cheeks, jawline and facial contouring.',
-      image: 'https://images.pexels.com/photos/3997981/pexels-photo-3997981.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/images/drmike_filler_injection.png',
       link: '/treatments#fillers'
     },
     {
       title: 'Fat Reduction',
-      description: 'Fast access to facial reshaping, jowel reduction and buccal fat treatments.',
-      image: 'https://images.pexels.com/photos/5069513/pexels-photo-5069513.jpeg?auto=compress&cs=tinysrgb&w=600',
+      description: 'Fast access to facial reshaping, jowel reduction and buccal fat treatments in a safer way.',
+      image: '/images/drmike_facial_reduction.jpeg',
       link: '/treatments#fat-reduction'
     },
     {
       title: 'Vaser Liposuction',
       description: 'Specialist support for body contouring with advanced ultrasound-assisted liposuction technology.',
-      image: 'https://images.pexels.com/photos/6823567/pexels-photo-6823567.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/images/drmike_lipo.jpeg',
       link: '/treatments#vaser'
     }
   ];

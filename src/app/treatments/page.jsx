@@ -8,7 +8,7 @@ export default function TreatmentsPage() {
       id: 'anti-wrinkle',
       title: 'Anti-Wrinkle Injections',
       subtitle: 'Botox, Dysport & Azzalure',
-      image: 'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/drmike_antiwrinkle.png',
       description: 'Dr Mike Comins has been performing anti-wrinkle injections since 2001, making him one of the first doctors in the UK trained in this treatment. With over 23 years of experience and having trained other practitioners as an Allergan trainer, you can trust his expertise.',
       benefits: [
         'Reduces forehead lines, frown lines and crow\'s feet',
@@ -25,7 +25,7 @@ export default function TreatmentsPage() {
       id: 'fillers',
       title: 'Dermal Fillers',
       subtitle: 'Lips, Cheeks, Nose & Jawline Enhancement',
-      image: 'https://images.pexels.com/photos/3997981/pexels-photo-3997981.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/drmike_filler_injection.png',
       description: 'Using premium hyaluronic acid fillers, Dr Comins specialises in creating natural-looking volume and definition. Whether you want to enhance your lips, restore cheek volume, refine your nose shape, or define your jawline, treatments are tailored to your facial proportions.',
       benefits: [
         'Lip enhancement and symmetry correction',
@@ -44,7 +44,7 @@ export default function TreatmentsPage() {
       id: 'vaser',
       title: 'Vaser Liposuction',
       subtitle: 'Advanced Body Contouring',
-      image: 'https://images.pexels.com/photos/6823567/pexels-photo-6823567.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/drmike_lipo.jpeg',
       description: 'Dr Mike Comins introduced Vaser Hi Def liposuction to the UK in 2010 and is recognised worldwide as a pioneer in this technique. Vaser uses ultrasound technology to selectively target fat cells whilst preserving surrounding tissues, resulting in superior body contouring with less bruising and faster recovery.',
       benefits: [
         'Precise fat removal and body sculpting',
@@ -63,7 +63,7 @@ export default function TreatmentsPage() {
       id: 'fat-reduction',
       title: 'Facial Fat Reduction',
       subtitle: 'Jowel, Jaw & Buccal Fat Treatment',
-      image: 'https://images.pexels.com/photos/5069513/pexels-photo-5069513.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/drmike_facial_reduction.jpeg',
       description: 'Targeting stubborn facial fat deposits that affect your facial contours. Dr Comins uses advanced PB Serum injections and surgical techniques to reduce jowels, slim the jawline, and remove buccal (cheek) fat for a more defined, sculpted facial appearance.',
       benefits: [
         'Reduction of jowel fat for defined jawline',
@@ -85,21 +85,21 @@ export default function TreatmentsPage() {
       id: 'nose-reshaping',
       title: 'Non-Surgical Nose Reshaping',
       description: 'Correct bumps, asymmetry, or drooping nasal tip using dermal fillers. Results are immediate and reversible.',
-      image: 'https://images.pexels.com/photos/4585185/pexels-photo-4585185.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/images/drmike_Non-SurgicalNoseReshaping.png',
       price: 'From £400'
     },
     {
       id: 'profhilo',
       title: 'Profhilo',
       description: 'Bio-remodelling treatment that improves skin quality, hydration and elasticity. Often called "injectable skincare".',
-      image: 'https://images.pexels.com/photos/4046325/pexels-photo-4046325.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/images/drmike_profhilo.png',
       price: 'From £450'
     },
     {
       id: 'polynucleotides',
       title: 'Polynucleotides',
       description: 'Advanced skin rejuvenation treatment that stimulates collagen production and improves skin texture and tone.',
-      image: 'https://images.pexels.com/photos/5069432/pexels-photo-5069432.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/images/drmike_polynucleotides.jpeg',
       price: 'From £350'
     },
     {
